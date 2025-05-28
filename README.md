@@ -1,6 +1,6 @@
 # Example code repository and tutorial for the VERA Forecasting Challenge
 
-[![R](https://img.shields.io/badge/-script-276DC3.svg?style=flat&logo=R)](https://cran.r-project.org) [![RStudio](https://img.shields.io/badge/RStudio-project-75AADB.svg?style=flat&logo=RStudio)](https://www.rstudio.com)
+[![R](https://img.shields.io/badge/-script-276DC3.svg?style=flat&logo=R)](https://cran.r-project.org) [![RStudio](https://img.shields.io/badge/RStudio-project-75AADB.svg?style=flat&logo=RStudio)](https://www.rstudio.com) [![DOI](https://zenodo.org/badge/715642148.svg)](https://doi.org/10.5281/zenodo.15537787)
 
 This repository can be used as a template to develop automated workflows to submit forecasts to the [VERA (Virginia Ecoforecast Reservoir Analysis) Forecasting Challenge](https://www.ltreb-reservoirs.org/vera4cast/).
 
