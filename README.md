@@ -1,16 +1,18 @@
 # Example code repository and tutorial for the VERA Forecasting Challenge
 
+[![R](https://img.shields.io/badge/-script-276DC3.svg?style=flat&logo=R)](https://cran.r-project.org) [![RStudio](https://img.shields.io/badge/RStudio-project-75AADB.svg?style=flat&logo=RStudio)](https://www.rstudio.com)
+
 This repository can be used as a template to develop automated workflows to submit forecasts to the [VERA (Virginia Ecoforecast Reservoir Analysis) Forecasting Challenge](https://www.ltreb-reservoirs.org/vera4cast/).
 
 The repository is structured with the following sub-directories and files: 
 
-- tutorial: This contains an R Markdown document that steps through the process of generating a simple water temperature forecast for the VERA Forecasting Challenge. It takes you through the steps to access the targets data, access the meteorological weather driver data, fit a forecast model, generate a forecast, and submit a forecast! This is a good introduction to the VERA Challenge and the overall forecasting workflow.
+- tutorial: This contains an R Markdown document that steps through the process of generating a simple water temperature forecast for the VERA Forecasting Challenge. It takes you through the steps to access the targets data, access the meteorological weather driver data, fit a forecast model, generate a forecast, and submit a forecast! This is a good introduction to the VERA Challenge and the overall forecasting workflow. A Python version of this tutorial is available at the `PY_VERA-EXAMPLE` repository [![PY-VERA_EXAMPLE repository](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://github.com/LTREB-reservoirs/PY-VERA_EXAMPLE).
 - forecast_code: This contains the scripts needed to generate a forecast. Most of the code is replicated from the tutorial as a template but should be edited with your own forecast code. The `load_packages.R` calls the package installation steps for the forecast and the `run_forecast.R` script is the main forecast code.
 - .github/workflows: contains the yaml file needed to automate the forecast workflow. If you don't change the file structure in the repository, you won't need to modify anything here! Just follow the instructions below on automating your forecast.
 
 ## 1. Tutorial
 
-This tutorial presents a simple linear model that generates a water temperature forecast for the VERA Forecasting Challenge. It introduces some tools and techniques that can be used to generate a forecast and steps through how to submit a forecast to the Challenge.
+This tutorial presents a simple linear model that generates a water temperature forecast for the VERA Forecasting Challenge. It introduces some tools and techniques that can be used to generate a forecast and steps through how to submit a forecast to the Challenge. For the Python version of this tutorial visit the `PY_VERA-EXAMPLE` repository [![PY-VERA_EXAMPLE repository](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://github.com/LTREB-reservoirs/PY-VERA_EXAMPLE).
 
 ## 2. Forecast code
 
